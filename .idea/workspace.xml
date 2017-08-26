@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cd7bc1-00ba-41c6-9e39-6ae2b474c1f3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/classesSearcher/task.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classesSearcher/ClassComparator.java" afterPath="$PROJECT_DIR$/src/classesSearcher/ClassComparator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classesSearcher/DataIndexing.java" afterPath="$PROJECT_DIR$/src/classesSearcher/DataIndexing.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classesSearcher/Main.java" afterPath="$PROJECT_DIR$/src/classesSearcher/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classesSearcher/ProjectDirectoryVisitor.java" afterPath="$PROJECT_DIR$/src/classesSearcher/ProjectDirectoryVisitor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classesSearcher/Searcher.java" afterPath="$PROJECT_DIR$/src/classesSearcher/Searcher.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classesSearcher/Utils.java" afterPath="$PROJECT_DIR$/src/classesSearcher/Utils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test2/Test_2_1.java" afterPath="$PROJECT_DIR$/src/test2/Test_2_1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_modul2/src/Modul_2.java" afterPath="$PROJECT_DIR$/test_modul2/src/Modul_2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_modul2/src/Modul_2_1.java" afterPath="$PROJECT_DIR$/test_modul2/src/Modul_2_1.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/classesSearcher/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="26" column="64" lean-forward="false" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
+            <state relative-caret-position="432">
+              <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -42,14 +39,14 @@
       <file leaf-file-name="Searcher.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classesSearcher/Searcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+            <state relative-caret-position="243">
+              <caret line="9" column="105" lean-forward="false" selection-start-line="9" selection-start-column="105" selection-end-line="9" selection-end-column="105" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="task.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classesSearcher/task.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1539">
@@ -62,17 +59,17 @@
       <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classesSearcher/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            <state relative-caret-position="319">
+              <caret line="14" column="64" lean-forward="false" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="class#810:1224" expanded="false" />
-                <element signature="e#1412#1413#0" expanded="true" />
-                <element signature="e#1449#1450#0" expanded="true" />
-                <element signature="e#1504#1505#0" expanded="true" />
-                <element signature="e#1540#1541#0" expanded="true" />
-                <element signature="e#1591#1592#0" expanded="true" />
-                <element signature="e#1636#1637#0" expanded="true" />
+                <element signature="class#768:1182" expanded="false" />
+                <element signature="e#1370#1371#0" expanded="true" />
+                <element signature="e#1407#1408#0" expanded="true" />
+                <element signature="e#1462#1463#0" expanded="true" />
+                <element signature="e#1498#1499#0" expanded="true" />
+                <element signature="e#1549#1550#0" expanded="true" />
+                <element signature="e#1594#1595#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,8 +78,8 @@
       <file leaf-file-name="DataIndexing.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classesSearcher/DataIndexing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+            <state relative-caret-position="159">
+              <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,8 +90,8 @@
       <file leaf-file-name="ProjectDirectoryVisitor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classesSearcher/ProjectDirectoryVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="22" column="71" lean-forward="false" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+            <state relative-caret-position="270">
+              <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,11 +102,11 @@
       <file leaf-file-name="ClassComparator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classesSearcher/ClassComparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="135">
+              <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
               <folding>
-                <element signature="e#759#760#0" expanded="true" />
-                <element signature="e#803#804#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,19 +159,19 @@
         <option value="$PROJECT_DIR$/src/ru/test1/Test_1_1.java" />
         <option value="$PROJECT_DIR$/src/ru/naumen/fromsearcer/test4/Test_4_6.java" />
         <option value="$PROJECT_DIR$/src/classesSearcher/DataStorage.java" />
-        <option value="$PROJECT_DIR$/src/classesSearcher/ProjectDirectoryVisitor.java" />
         <option value="$PROJECT_DIR$/test_modul/src/Modul_Test_7.java" />
         <option value="$PROJECT_DIR$/test_modul/src/Modul_Test_9.java" />
         <option value="$PROJECT_DIR$/test_modul/src/Modul_Test_8.java" />
-        <option value="$PROJECT_DIR$/src/classesSearcher/DataIndexing.java" />
-        <option value="$PROJECT_DIR$/src/classesSearcher/ClassComparator.java" />
         <option value="$PROJECT_DIR$/test_modul2/src/Modul_2.java" />
         <option value="$PROJECT_DIR$/test_modul2/src/Modul_2_1.java" />
         <option value="$PROJECT_DIR$/src/test2/Test_2_1.java" />
-        <option value="$PROJECT_DIR$/src/classesSearcher/Utils.java" />
-        <option value="$PROJECT_DIR$/src/classesSearcher/Main.java" />
-        <option value="$PROJECT_DIR$/src/classesSearcher/Searcher.java" />
         <option value="$PROJECT_DIR$/src/classesSearcher/task.txt" />
+        <option value="$PROJECT_DIR$/src/classesSearcher/Searcher.java" />
+        <option value="$PROJECT_DIR$/src/classesSearcher/Utils.java" />
+        <option value="$PROJECT_DIR$/src/classesSearcher/DataIndexing.java" />
+        <option value="$PROJECT_DIR$/src/classesSearcher/ProjectDirectoryVisitor.java" />
+        <option value="$PROJECT_DIR$/src/classesSearcher/ClassComparator.java" />
+        <option value="$PROJECT_DIR$/src/classesSearcher/Main.java" />
       </list>
     </option>
   </component>
@@ -868,12 +865,12 @@
       <updated>1503550881635</updated>
       <workItem from="1503550886352" duration="62471000" />
       <workItem from="1503728072786" duration="4385000" />
-      <workItem from="1503732542639" duration="32476000" />
+      <workItem from="1503732542639" duration="34041000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99332000" />
+    <option name="totallyTimeSpent" value="100897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="36" width="1928" height="1048" extended-state="6" />
@@ -901,9 +898,9 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35129067" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35129067" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2929293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2929293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24839744" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35690236" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1257,29 +1254,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classesSearcher/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="26" column="64" lean-forward="false" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/classesSearcher/ClassComparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        <state relative-caret-position="135">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
           <folding>
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classesSearcher/ProjectDirectoryVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="22" column="71" lean-forward="false" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+        <state relative-caret-position="270">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1288,8 +1277,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classesSearcher/DataIndexing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        <state relative-caret-position="159">
+          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1298,26 +1287,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classesSearcher/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="319">
+          <caret line="14" column="64" lean-forward="false" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="class#810:1224" expanded="false" />
-            <element signature="e#1412#1413#0" expanded="true" />
-            <element signature="e#1449#1450#0" expanded="true" />
-            <element signature="e#1504#1505#0" expanded="true" />
-            <element signature="e#1540#1541#0" expanded="true" />
-            <element signature="e#1591#1592#0" expanded="true" />
-            <element signature="e#1636#1637#0" expanded="true" />
+            <element signature="class#768:1182" expanded="false" />
+            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+            <element signature="e#1462#1463#0" expanded="true" />
+            <element signature="e#1498#1499#0" expanded="true" />
+            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#1594#1595#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classesSearcher/Searcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1325,6 +1306,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1539">
           <caret line="57" column="82" lean-forward="false" selection-start-line="57" selection-start-column="82" selection-end-line="57" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classesSearcher/Searcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="105" lean-forward="false" selection-start-line="9" selection-start-column="105" selection-end-line="9" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classesSearcher/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
           <folding />
         </state>
       </provider>

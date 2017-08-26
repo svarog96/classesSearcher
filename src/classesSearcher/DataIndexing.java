@@ -5,6 +5,7 @@ import java.nio.file.Files;
 
 /**
  * Created by glebus on 25.08.17.
+ * start indexing data before start searching
  */
 abstract class DataIndexing {
     static void doDataIndexing(){

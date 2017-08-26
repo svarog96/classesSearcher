@@ -9,10 +9,10 @@ import java.util.Map;
 
 /**
  * Created on 26.08.17.
- * содержит основные параметры поиска
- * @Param FILE_EXTENSION - расширение искомых файлов
- * @Param ROOT_PROJECT_DIRECTORY - корневая директория с которой начинается поиск
- * @Param FILES_STORAGE - коллекция в которой хранятся найденные файлы и время их модификации
+ * contains the main parameters of search
+ * @Param FILE_EXTENSION - searching file extension
+ * @Param ROOT_PROJECT_DIRECTORY - root directory searching start
+ * @Param FILES_STORAGE - collection in wich stored findin files
  */
 public abstract class Utils {
     private static String FILE_EXTENSION = ".java";

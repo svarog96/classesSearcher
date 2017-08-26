@@ -2,6 +2,8 @@ package classesSearcher;
 
 /**
  * Created on 26.08.17.
+ * class for searchin files.
+ * it has comparator from sorting in TreeSet
  */
 public class ClassComparator implements Comparable {
     private String className;

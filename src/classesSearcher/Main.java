@@ -26,12 +26,7 @@ public class Main {
 
         System.out.println(Arrays.toString(searcher.guess("")));
         System.out.println(Arrays.toString(searcher.guess("")));
-//        System.out.println(Arrays.toString(searcher.guess("")));
-//        System.out.println(Arrays.toString(searcher.guess("Test_")));
-//        System.out.println(Arrays.toString(searcher.guess("")));
-//        System.out.println(Arrays.toString(searcher.guess("B")));
-//        System.out.println(Arrays.toString(searcher.guess("Test_1")));
-//        System.out.println(Arrays.toString(searcher.guess("M")));
+//
     }
 
 }

@@ -7,6 +7,8 @@ import java.nio.file.attribute.BasicFileAttributes;
 
 /**
  * Created by glebus on 25.08.17.
+ * visit all directories in this project and save all files with .java extension in the collection
+ * ignored the package in which locate
  */
 public class ProjectDirectoryVisitor extends SimpleFileVisitor<Path> {
     @Override
@@ -16,7 +18,6 @@ public class ProjectDirectoryVisitor extends SimpleFileVisitor<Path> {
         return FileVisitResult.CONTINUE;
     }
 
-    //    private DataIndex dataIndex = DataIndex.getInstance();
     @Override
     public FileVisitResult visitFile(Path path, BasicFileAttributes attrs) throws IOException {
         if(path.toString().endsWith(Utils.getFileExtension())){

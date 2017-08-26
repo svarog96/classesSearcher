@@ -6,15 +6,14 @@ import java.util.*;
 /**
  * Created by glebus on 24.08.17.
  * реализует интерфейс ISearcher
+ *  @method refresh() - update data in indexing collection in the Utils class;
+ *  @method gues() - get some part of String of the class name wich you whant find and return the Array[] of class names in which contains 12 results
  *
  */
 public class Searcher implements ISearcher {
 
     static {
-        long startTime = System.currentTimeMillis();
         DataIndexing.doDataIndexing();
-        long time = System.currentTimeMillis() - startTime;
-        System.out.println("Инициализация заняла: " + time + " ms");
     }
 
     @Override
