@@ -11,26 +11,27 @@ public class Main {
         long[] times = new long[100_000];
 
         Searcher searcher = new Searcher();
-            for(int i = 0; i < 100_000; i++) {
-                if(i%2 == 0)
-                    names[i] = "Test" + i + ".java";
-                else
-                    names[i] = "Best" + i + ".java";
-
-                times[i] = System.currentTimeMillis() + ((int)Math.random() * 100 + 1);
-            }
-
-        searcher.refresh(names, times);
+//            for(int i = 0; i < 100_000; i++) {
+//                times[i] = System.currentTimeMillis() + ((long) (Math.random() * 10000) + 1);
+//
+//                if(i%2 == 0)
+//                    names[i] = "Test" + i + ".java";
+//                 else
+//                    names[i] = "Best" + i + ".java";
+//            }
+//
+//        searcher.refresh(names, times);
         System.out.println("Найдено " + Utils.getFilesStorage().size() + " java файлов");
 
-        String[] result = searcher.guess("B");
-        System.out.println(Arrays.toString(result));
 
-//        for(int j = 0; j < 5; j++){
-//            String name = "Test" + j;
-//            System.out.println(Arrays.toString(searcher.guess(name)));
-//        }
-
+        System.out.println(Arrays.toString(searcher.guess("")));
+        System.out.println(Arrays.toString(searcher.guess("")));
+//        System.out.println(Arrays.toString(searcher.guess("")));
+//        System.out.println(Arrays.toString(searcher.guess("Test_")));
+//        System.out.println(Arrays.toString(searcher.guess("")));
+//        System.out.println(Arrays.toString(searcher.guess("B")));
+//        System.out.println(Arrays.toString(searcher.guess("Test_1")));
+//        System.out.println(Arrays.toString(searcher.guess("M")));
     }
 
 }

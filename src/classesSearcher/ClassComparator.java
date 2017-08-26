@@ -19,7 +19,7 @@ public class ClassComparator implements Comparable {
         if(result != 0)
             return result*(-1);
         else
-            return result = className.compareTo(entry.className);
+            return className.compareTo(entry.className);
 
     }
 

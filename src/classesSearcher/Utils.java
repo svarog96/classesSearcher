@@ -10,9 +10,9 @@ import java.util.Map;
 /**
  * Created on 26.08.17.
  * содержит основные параметры поиска
- * @Param <FILE_EXTENSION> - расширение искомых файлов, по умолчанию .java
- * @Param <ROOT_PROJECT_DIRECTORY> - корневая директория с которой начинается поиск, по умолчанию пердок папки src
- * @Param <FILES_STORAGE> - коллекция в которой хранятся найденные файлы и время их модификации
+ * @Param FILE_EXTENSION - расширение искомых файлов
+ * @Param ROOT_PROJECT_DIRECTORY - корневая директория с которой начинается поиск
+ * @Param FILES_STORAGE - коллекция в которой хранятся найденные файлы и время их модификации
  */
 public abstract class Utils {
     private static String FILE_EXTENSION = ".java";
@@ -33,14 +33,6 @@ public abstract class Utils {
             return 1;
         }
     };
-
-
-    public static void setFileExtention(String extention){
-        FILE_EXTENSION = extention;
-    }
-    public static void setRootProjectDirectory(String directoryName) {
-        ROOT_PROJECT_DIRECTORY = Paths.get(new File(directoryName).getAbsolutePath()).getParent();
-    }
 
     public static void setFileStorage(String fileName, Long modificationDate) {
         FILES_STORAGE.put(fileName, modificationDate);

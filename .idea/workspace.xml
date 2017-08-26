@@ -2,62 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cd7bc1-00ba-41c6-9e39-6ae2b474c1f3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/classSearcher/classesSearcher/ClassComparator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/classSearcher/classesSearcher/ISearcher.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/classSearcher/classesSearcher/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/classSearcher/classesSearcher/Searcher.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/classSearcher/ru/naumen/fromsearcer/test4/Test_4_1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/classSearcher/ru/naumen/fromsearcer/test4/Test_4_2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/classSearcher/ru/naumen/fromsearcer/test4/Test_4_3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/classSearcher/ru/naumen/fromsearcer/test4/Test_4_4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/classSearcher/ru/naumen/fromsearcer/test4/Test_4_5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/classSearcher/ru/naumen/fromsearcer/test4/Test_4_6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/classSearcher/ru/test1/Test_1_1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/classSearcher/ru/test1/Test_1_2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/classSearcher/ru/test1/Test_1_3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/classSearcher/test2/Test_2_1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/classSearcher/test2/Test_2_2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/classSearcher/test2/test3/Test_3_1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/classSearcher/test2/test3/Test_3_2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.directory" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classSearcher.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/classSearcher/ru/example.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/classesSearcher/ClassComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/classesSearcher/DataIndexing.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/classesSearcher/ISearcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/classesSearcher/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/classesSearcher/ProjectDirectoryVisitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/classesSearcher/Searcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/classesSearcher/Utils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/example.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/naumen/fromsearcer/test4/Test_4_1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/naumen/fromsearcer/test4/Test_4_2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/naumen/fromsearcer/test4/Test_4_3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/naumen/fromsearcer/test4/Test_4_4.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/naumen/fromsearcer/test4/Test_4_5.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/naumen/fromsearcer/test4/Test_4_6.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/test1/Test_1_1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/test1/Test_1_2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/test1/Test_1_3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test2/Test_2_1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test2/Test_2_2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test2/test3/Test_2_3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test2/test3/Test_3_1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test2/test3/Test_3_2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_modul/src/Modul_Test_7.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_modul/src/Modul_Test_8.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_modul/src/Modul_Test_9.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_modul/test_modul.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_modul2/src/Modul_2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_modul2/src/Modul_2_1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_modul_2/test_module2.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/classesSearcher/task.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classesSearcher/ClassComparator.java" afterPath="$PROJECT_DIR$/src/classesSearcher/ClassComparator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classesSearcher/DataIndexing.java" afterPath="$PROJECT_DIR$/src/classesSearcher/DataIndexing.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classesSearcher/Main.java" afterPath="$PROJECT_DIR$/src/classesSearcher/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classesSearcher/Searcher.java" afterPath="$PROJECT_DIR$/src/classesSearcher/Searcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classesSearcher/Utils.java" afterPath="$PROJECT_DIR$/src/classesSearcher/Utils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test2/Test_2_1.java" afterPath="$PROJECT_DIR$/src/test2/Test_2_1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_modul2/src/Modul_2.java" afterPath="$PROJECT_DIR$/test_modul2/src/Modul_2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_modul2/src/Modul_2_1.java" afterPath="$PROJECT_DIR$/test_modul2/src/Modul_2_1.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,21 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classesSearcher/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Modul_Test_7.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_modul/src/Modul_Test_7.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            <state relative-caret-position="702">
+              <caret line="26" column="64" lean-forward="false" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -99,11 +42,19 @@
       <file leaf-file-name="Searcher.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classesSearcher/Searcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="47" column="100" lean-forward="true" selection-start-line="47" selection-start-column="100" selection-end-line="47" selection-end-column="100" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="810">
+              <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/classesSearcher/task.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1539">
+              <caret line="57" column="82" lean-forward="false" selection-start-line="57" selection-start-column="82" selection-end-line="57" selection-end-column="82" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,18 +62,17 @@
       <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classesSearcher/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="709">
-              <caret line="51" column="54" lean-forward="true" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
+            <state relative-caret-position="292">
+              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="class#867:1281" expanded="false" />
-                <element signature="e#1342#1343#0" expanded="true" />
-                <element signature="e#1384#1385#0" expanded="true" />
-                <element signature="e#1748#1749#0" expanded="true" />
-                <element signature="e#1785#1786#0" expanded="true" />
-                <element signature="e#1876#1877#0" expanded="true" />
-                <element signature="e#1927#1928#0" expanded="true" />
-                <element signature="e#1972#1973#0" expanded="true" />
+                <element signature="class#810:1224" expanded="false" />
+                <element signature="e#1412#1413#0" expanded="true" />
+                <element signature="e#1449#1450#0" expanded="true" />
+                <element signature="e#1504#1505#0" expanded="true" />
+                <element signature="e#1540#1541#0" expanded="true" />
+                <element signature="e#1591#1592#0" expanded="true" />
+                <element signature="e#1636#1637#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,8 +81,8 @@
       <file leaf-file-name="DataIndexing.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classesSearcher/DataIndexing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="267">
+              <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,7 +93,7 @@
       <file leaf-file-name="ProjectDirectoryVisitor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classesSearcher/ProjectDirectoryVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
+            <state relative-caret-position="535">
               <caret line="22" column="71" lean-forward="false" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -155,39 +105,12 @@
       <file leaf-file-name="ClassComparator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classesSearcher/ClassComparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="21" column="65" lean-forward="false" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_3_1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test2/test3/Test_3_1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Modul_Test_9.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_modul/src/Modul_Test_9.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Modul_Test_8.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_modul/src/Modul_Test_8.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-              <folding />
+            <state relative-caret-position="164">
+              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <folding>
+                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#803#804#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -238,18 +161,20 @@
         <option value="$PROJECT_DIR$/src/classesSearcher/DataIndex.java" />
         <option value="$PROJECT_DIR$/src/ru/test1/Test_1_1.java" />
         <option value="$PROJECT_DIR$/src/ru/naumen/fromsearcer/test4/Test_4_6.java" />
-        <option value="$PROJECT_DIR$/src/test2/Test_2_1.java" />
-        <option value="$PROJECT_DIR$/test_modul2/src/Modul_2_1.java" />
         <option value="$PROJECT_DIR$/src/classesSearcher/DataStorage.java" />
-        <option value="$PROJECT_DIR$/src/classesSearcher/DataIndexing.java" />
-        <option value="$PROJECT_DIR$/src/classesSearcher/ClassComparator.java" />
-        <option value="$PROJECT_DIR$/src/classesSearcher/Utils.java" />
         <option value="$PROJECT_DIR$/src/classesSearcher/ProjectDirectoryVisitor.java" />
-        <option value="$PROJECT_DIR$/src/classesSearcher/Searcher.java" />
         <option value="$PROJECT_DIR$/test_modul/src/Modul_Test_7.java" />
         <option value="$PROJECT_DIR$/test_modul/src/Modul_Test_9.java" />
         <option value="$PROJECT_DIR$/test_modul/src/Modul_Test_8.java" />
+        <option value="$PROJECT_DIR$/src/classesSearcher/DataIndexing.java" />
+        <option value="$PROJECT_DIR$/src/classesSearcher/ClassComparator.java" />
+        <option value="$PROJECT_DIR$/test_modul2/src/Modul_2.java" />
+        <option value="$PROJECT_DIR$/test_modul2/src/Modul_2_1.java" />
+        <option value="$PROJECT_DIR$/src/test2/Test_2_1.java" />
+        <option value="$PROJECT_DIR$/src/classesSearcher/Utils.java" />
         <option value="$PROJECT_DIR$/src/classesSearcher/Main.java" />
+        <option value="$PROJECT_DIR$/src/classesSearcher/Searcher.java" />
+        <option value="$PROJECT_DIR$/src/classesSearcher/task.txt" />
       </list>
     </option>
   </component>
@@ -399,6 +324,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classSearcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classSearcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classesSearcher" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -925,12 +868,12 @@
       <updated>1503550881635</updated>
       <workItem from="1503550886352" duration="62471000" />
       <workItem from="1503728072786" duration="4385000" />
-      <workItem from="1503732542639" duration="28953000" />
+      <workItem from="1503732542639" duration="32476000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95809000" />
+    <option name="totallyTimeSpent" value="99332000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="36" width="1928" height="1048" extended-state="6" />
@@ -958,9 +901,9 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37373737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35129067" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41975307" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2929293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24839744" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35690236" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1018,7 +961,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1027,15 +970,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../#1.Java_education/#14 IO_File/src/FileTest_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classSearcher/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/ru/test1/Test_1_2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1235,34 +1169,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test2/Test_2_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_modul2/src/Modul_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/jdk1.8.0_131/src.zip!/java/util/AbstractCollection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
           <caret line="195" column="0" lean-forward="false" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_modul2/src/Modul_2_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1291,60 +1201,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classesSearcher/ClassComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="21" column="65" lean-forward="false" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classesSearcher/ProjectDirectoryVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="71" lean-forward="false" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classesSearcher/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="51" column="54" lean-forward="true" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#867:1281" expanded="false" />
-            <element signature="e#1342#1343#0" expanded="true" />
-            <element signature="e#1384#1385#0" expanded="true" />
-            <element signature="e#1748#1749#0" expanded="true" />
-            <element signature="e#1785#1786#0" expanded="true" />
-            <element signature="e#1876#1877#0" expanded="true" />
-            <element signature="e#1927#1928#0" expanded="true" />
-            <element signature="e#1972#1973#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classesSearcher/DataIndexing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_modul/src/Modul_Test_7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_modul/src/Modul_Test_9.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1361,20 +1217,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classesSearcher/Searcher.java">
+    <entry file="file://$PROJECT_DIR$/test_modul/src/Modul_Test_7.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="47" column="100" lean-forward="true" selection-start-line="47" selection-start-column="100" selection-end-line="47" selection-end-column="100" />
+        <state relative-caret-position="108">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_131/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2106">
+          <caret line="58" column="19" lean-forward="false" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_modul2/src/Modul_2_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_modul2/src/Modul_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test2/Test_2_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classesSearcher/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="64" lean-forward="false" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classesSearcher/ClassComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classesSearcher/ProjectDirectoryVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="22" column="71" lean-forward="false" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classesSearcher/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/classesSearcher/DataIndexing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        <state relative-caret-position="267">
+          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classesSearcher/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#810:1224" expanded="false" />
+            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1449#1450#0" expanded="true" />
+            <element signature="e#1504#1505#0" expanded="true" />
+            <element signature="e#1540#1541#0" expanded="true" />
+            <element signature="e#1591#1592#0" expanded="true" />
+            <element signature="e#1636#1637#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classesSearcher/Searcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classesSearcher/task.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="57" column="82" lean-forward="false" selection-start-line="57" selection-start-column="82" selection-end-line="57" selection-end-column="82" />
           <folding />
         </state>
       </provider>
