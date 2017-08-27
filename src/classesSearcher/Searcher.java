@@ -1,8 +1,4 @@
 package classesSearcher;
-
-
-import java.util.*;
-
 /**
  * Created by glebus on 24.08.17.
  * реализует интерфейс ISearcher
@@ -13,7 +9,10 @@ import java.util.*;
 public class Searcher implements ISearcher {
 
     static {
+        long startTime = System.currentTimeMillis();
         DataIndexing.doDataIndexing();
+        long totalTime = System.currentTimeMillis() - startTime;
+        System.out.println("Индексация заняла: " + totalTime + " мс");
     }
 
     @Override
@@ -27,29 +26,17 @@ public class Searcher implements ISearcher {
     }
 
     @Override
-    public String[] guess(String start) {
-        TreeSet<ClassComparator> choosenFiles = new TreeSet<>();
-        List<String> files = new ArrayList<>();
-        String[] result;
+    public String[] guess(String start){
 
-        for(Map.Entry<String, Long> e : Utils.getFilesStorage().entrySet()){
-            if(e.getKey().startsWith(start))
-               choosenFiles.add(new ClassComparator(e.getKey(), e.getValue()));
+        SearchQuery query = new SearchQuery(start);
+        Thread t1 = new Thread(query);
+        t1.start();
+        try {
+            t1.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
 
-        for(ClassComparator col : choosenFiles){
-            files.add(col.getClassName());
-        }
-
-        if(files.size() > 12)
-            result = new String[12];
-        else
-            result = new String[files.size()];
-
-        for(int i = 0; i < result.length; i++){
-            result[i] = files.get(i);
-        }
-
-        return result;
+        return query.getResult();
     }
 }
