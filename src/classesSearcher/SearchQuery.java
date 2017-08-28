@@ -19,8 +19,8 @@ public class SearchQuery implements Runnable {
     }
     @Override
     public void run() {
-//        System.out.println("Старт поиска");
 //        long startTime = System.currentTimeMillis();
+        int count = 0;
 
         TreeSet<ClassComparator> choosenFiles = new TreeSet<>();
         ArrayList<String> files = new ArrayList<>();
@@ -30,19 +30,22 @@ public class SearchQuery implements Runnable {
                 choosenFiles.add(new ClassComparator(e.getKey(), e.getValue()));
         }
 
-        for(ClassComparator col : choosenFiles){
-            files.add(col.getClassName());
-        }
-
-        if(files.size() > 12)
+        if(choosenFiles.size() > 12)
             this.result = new String[12];
         else
             this.result = new String[files.size()];
 
+        for(ClassComparator col : choosenFiles){
+            if(count < result.length)
+                files.add(col.getClassName());
+            else break;
+            count++;
+        }
+
         for(int i = 0; i < result.length; i++){
             this.result[i] = files.get(i);
         }
-        Utils.tmpThreadCounter++;
+
 //        long totalTime = System.currentTimeMillis() - startTime;
 //        System.out.println("Поиск занял: " + totalTime + " мс");
 

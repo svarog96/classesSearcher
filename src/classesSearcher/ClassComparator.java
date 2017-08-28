@@ -32,7 +32,5 @@ public class ClassComparator implements Comparable {
     public long getModificationDate(){
         return this.modificationDate;
     }
-
-
 }
 

@@ -6,6 +6,8 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
+import java.util.Iterator;
+import java.util.Map;
 
 /**
  * Created by glebus on 25.08.17.
@@ -13,13 +15,18 @@ import java.nio.file.attribute.BasicFileAttributes;
  */
 abstract class DataIndexing {
     static void doDataIndexing(){
+        for(Iterator<Map.Entry<String, Long>> it = Utils.getFilesStorage().entrySet().iterator(); it.hasNext(); ) {
+            Map.Entry<String, Long> entry = it.next();
+                it.remove();
+        }
+
         try {
             Files.walkFileTree(Utils.getRootProjectDirectory(), new ProjectDirectoryVisitor());
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
-    public static class ProjectDirectoryVisitor extends SimpleFileVisitor<Path> {
+    static class ProjectDirectoryVisitor extends SimpleFileVisitor<Path> {
 
         @Override
         public FileVisitResult preVisitDirectory(Path dir, BasicFileAttributes attrs) throws IOException {

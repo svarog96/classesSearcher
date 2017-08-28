@@ -9,10 +9,11 @@ package classesSearcher;
 public class Searcher implements ISearcher {
 
     static {
-        long startTime = System.currentTimeMillis();
+//        long startTime = System.currentTimeMillis();
         DataIndexing.doDataIndexing();
-        long totalTime = System.currentTimeMillis() - startTime;
-        System.out.println("Индексация заняла: " + totalTime + " мс");
+//        long totalTime = System.currentTimeMillis() - startTime;
+//        System.out.println("Индексация заняла: " + totalTime + " мс");
+//        System.out.println("Найдено " + Utils.getFilesStorage().size() + " '" + Utils.getFileExtension() + "' " + " файлов");
     }
 
     @Override
@@ -23,11 +24,11 @@ public class Searcher implements ISearcher {
             else
                 System.out.println("неизвестный файл " + classNames[i] + " позиция " + i);
         }
+//        System.out.println("Произошло обновление данных");
     }
 
     @Override
     public String[] guess(String start){
-
         SearchQuery query = new SearchQuery(start);
         Thread t1 = new Thread(query);
         t1.start();
@@ -36,7 +37,6 @@ public class Searcher implements ISearcher {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
         return query.getResult();
     }
 }

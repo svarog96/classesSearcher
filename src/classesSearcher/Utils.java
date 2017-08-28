@@ -20,21 +20,6 @@ public abstract class Utils {
 
     public static volatile int  tmpThreadCounter = 0;
 
-    static final Comparator<File> MODIFIED_DATE_FILE_COMPARATOR = new Comparator<File>() {
-        @Override
-        public int compare(File o1, File o2) {
-            if (o1.lastModified() > o2.lastModified()) {
-                return -1;
-            } else {
-                if (o1.lastModified() == o2.lastModified()) {
-                    return o1.getAbsolutePath().compareToIgnoreCase(o2.getAbsolutePath());
-
-                }
-            }
-            return 1;
-        }
-    };
-
     public static void setFileStorage(String fileName, Long modificationDate) {FILES_STORAGE.put(fileName, modificationDate);}
     public static String getFileExtension(){return FILE_EXTENSION;}
     public static Map<String, Long> getFilesStorage(){

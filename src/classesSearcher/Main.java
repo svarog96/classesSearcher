@@ -13,14 +13,16 @@ public class Main {
             for(int i = 0; i < 100_000; i++) {
                 times[i] = System.currentTimeMillis() + ((long) (Math.random() * 10000) + 1);
                 if(i%2 == 0)
-                    names[i] = "Test" + i + ".java";
+                    names[i] = "Test_1_" + i + ".java";
                  else
-                    names[i] = "Best" + i + ".java";
+                    names[i] = "Best_1_" + i + ".java";
             }
         searcher.refresh(names, times);
 
-        System.out.println("Найдено " + Utils.getFilesStorage().size() + " java файлов");
-        System.out.println(Arrays.toString(searcher.guess("")));
+        System.out.println("Найдено " + Utils.getFilesStorage().size() + " '" + Utils.getFileExtension() + "' " + " файлов");
+        System.out.println(Arrays.toString(searcher.guess("Test_1_1")));
+
+
     }
 
 }
