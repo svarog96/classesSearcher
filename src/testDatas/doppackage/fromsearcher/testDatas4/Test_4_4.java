@@ -1,4 +1,4 @@
-package ru.doppackage.fromsearcher.test4;
+package testDatas.doppackage.fromsearcher.testDatas4;
 
 /**
  * Created on 26.08.17.

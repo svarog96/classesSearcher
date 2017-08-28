@@ -1,4 +1,4 @@
-package ru.test1;
+package testDatas.testDatas1;
 
 /**
  * Created on 24.08.17.

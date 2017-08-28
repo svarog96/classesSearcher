@@ -1,4 +1,4 @@
-package test2;
+package testDatas2;
 
 /**
  * Created on 24.08.17.
